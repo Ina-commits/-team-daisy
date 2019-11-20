@@ -1,1 +1,1 @@
-<h1> Inas, Vishali's Page </h1>
+<h1> Inas, Vishali's, Arielle's Page </h1>
