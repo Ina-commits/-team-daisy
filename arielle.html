@@ -1,2 +1,89 @@
 <h1>adding my html file</h1>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+
+<nav class="Top">
+  <button type="button" class="btn btn-outline-home">Home</button>
+<button type="button" class="btn btn-outline-about me">About us</button>
+<button type="button" class="btn btn-outline-save">How to save the planet </button>
+<button type="button" class="btn btn-outline-contact">Contact</button>
+</nav>
+
+
+<section>
+  <img class="Slides" src="https://i.pinimg.com/originals/a5/df/7d/a5df7d6b31c770dc754eaa448a87df13.jpg"
+  style="width:100%">
+  <img class="Slides" src="http://images.firstcovers.com/covers/s/save_our_planet-1292.jpg?i"
+  style="width:100%">
+  <img class="Slides" src="https://fbcover.com/covers-images/download/recycle_save_our_planet.jpg"
+  style="width:100%">
+</section>
+
+<!-- Main Text -->
+<section class="Main Text" style="max-width:600px">
+  <h2 class="Title">Welcome to our website</h2>
+  <p class="Subtitle"><i>We care about sustainability. Let me tell you why you should too.</i></p>
+  <p class="Text">Not practicing sustainable activities will lead your survival towards extinction.
+
+<p>As a parent when you give your child all your love and nurture a child, he/she grows up and once adulthood is attained, the cycle reverses and they start taking care of you. If you think about it, Mother Nature was the parent we never realised we had but the love you recieved from her was just the same as what your parents gave you.</p>
+
+<p>Look around and see what we are putting our world through. General Prices have hiked, commodities like water/electricity is no less than any other luxury because we are paying heaps of money towards them, irregular rainfalls, global warming, ocean pollution and you could list enough examples to fill this page up. The root cause to all these problems is unsustainable lifestyles and excessive negligence towards the environment.</p>
+
+<p>“Sustainability” is not a theory anymore. It’s a way of life that has the least negative impact on the environment and is the need for the hour. It’s the moral responsiblity of every living being to fight for the justice our environment deserves and it really should come from within oneself, as we all are indebted to Mother Nature for this life.</p>
+
+<p>Mankind through all these years has been known for it’s brilliance and it’s high time we use it towards something that holds the key to the survival of our race.</p>
+</section>
+
+<!-- What to do? -->
+<section class="Help">
+
+  <h2 class="Title">Little steps to help</h2>
+    <p>Recycle!</p>
+    <img src="https://corporate.target.com/_media/TargetCorp/global/CR_Env_Recycling_hero.jpg?width=655&height=357&ext=.jpg" alt="Random Name" style="width:100%">
+    <p>Use natural cleaning products!</p>
+    <img src="https://baynature.org/wp-content/uploads/2017/03/DIY-Natural-Cleaning-Challenge-6514-3.jpg" alt="Random Name" style="width:100%">
+    <p>Save Water!</p>
+    <img src="https://d27p8o2qkwv41j.cloudfront.net/wp-content/uploads/2016/03/dreamstime_m_48008311-e1458641725575.jpg" alt="Random Name" style="width:100%">
+    <p>Save Paper!</p>
+    <img src="https://i.ytimg.com/vi/jEI-0PjE3-g/maxresdefault.jpg" alt="Random Name" style="width:100%">
+    <p>Save energy!</p>
+    <img src="https://previews.123rf.com/images/artinspiring/artinspiring1904/artinspiring190400874/123237492-how-to-save-global-electricity-instruction-concept-energy-economy-and-ecology-care-use-solar-panel-w.jpg" alt="Random Name" style="width:100%">
+
+    <p>Join us in saving the planet and follow us on social media!</p>
+  </article>
+</section>
+
+
+<!-- Footer -->
+<footer class="social media">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+
+</footer>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Slides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
