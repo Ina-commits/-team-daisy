@@ -119,3 +119,11 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
+.toprow {
+  margin-right: 0rem;
+}
+
+.headerstart {
+  color: rgb(40,200,200)
+}
