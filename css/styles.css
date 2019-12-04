@@ -125,7 +125,7 @@ p {
 }
 
 .headerstart {
-  color: white; 
+  color: white;
 }
 
 
@@ -155,3 +155,9 @@ p {
     background: #125688;
     color: white;
   }
+
+.navbar {
+  color: white;
+}
+
+}
