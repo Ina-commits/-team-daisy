@@ -155,3 +155,8 @@ p {
     background: #125688;
     color: white;
   }
+
+  .collapsebtn {
+    padding: 0;
+
+  }
