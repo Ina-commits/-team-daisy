@@ -12,7 +12,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color:coral;
+    background-color:;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -155,9 +155,3 @@ p {
     background: #125688;
     color: white;
   }
-
-.navbar {
-  color: white;
-}
-
-}
