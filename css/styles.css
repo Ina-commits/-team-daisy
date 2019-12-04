@@ -130,9 +130,12 @@ p {
 
 
 .fa {
-  padding: 20px;
+  padding: 30px;
   font-size: 30px;
+  height: 30px;
   width: 30px;
+  display: table-cell;
+  margin: 5px 2px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
