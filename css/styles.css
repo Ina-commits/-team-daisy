@@ -108,6 +108,13 @@ h1{
   font-size:2.5rem;
   font-weight: 500;
   line-height: 1.2;
+  color: white;
+
+}
+
+h2{
+  text-align: center;
+
 }
 
 p {
@@ -116,6 +123,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    color: white;
 }
 
 p {
@@ -213,4 +221,48 @@ p {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.eventinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.eventinfo p {
+  font-size: 1.25em;
+}
+
+#eventitem {
+  padding: 50px;
+  padding-top: 50px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.how {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  padding-top: 50px;
+}
+
+.brighton {
+  width:300px;
+  height:300px;
+  object-fit:cover;
+}
+
+.modal-header {
+  text-align: center;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-size: 5000em;
 }
