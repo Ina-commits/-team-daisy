@@ -14,8 +14,14 @@ body {
 
 }
 
+
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
+}
+
+.factmain {
+  padding-top: 50px;
 }
 
 footer {
@@ -49,11 +55,13 @@ ol {
   text-align: center;
 
 
+
 }
 
 .carousel {
   margin-bottom: 2rem;
   position: relative;
+
 }
 
 rect[Attributes Style] {
@@ -72,6 +80,7 @@ rect[Attributes Style] {
 }
 
 .carousel-item {
+
   height:32rem;
   position: relative;
   display: none;
@@ -85,13 +94,16 @@ rect[Attributes Style] {
   transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
 
+
 .carousel-caption {
+
+
     position: absolute;
     right: 15%;
     bottom: 20px;
     left: 15%;
     z-index: 10;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 20px;
     color: #fff;
     text-align: center;
@@ -133,12 +145,16 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: white;
-}
-
-p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
+ul {
+  color: white;
+  font-size: 18px;
+}
+
+
 
 .toprow {
   margin-right: 0rem;
@@ -151,6 +167,7 @@ p {
 .quote {
   text-align: center;
   color: white;
+  padding-bottom: 50px;
 }
 
 .socialmedia {
@@ -199,10 +216,12 @@ p {
   width: 170px;
   height:170px;
 }
+
 .sustain {
   width: 200px;
   height: 200px;
 }
+
 .turtlepic {
   width: 200px;
   height: 200px;
@@ -212,6 +231,7 @@ p {
  -ms-transform: rotate(270deg);
  transform: rotate(270deg);
 }
+
 .turtleicon:hover, #drag1:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 0.5s;
@@ -238,7 +258,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-top: 0px;
+  padding-top: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -318,7 +338,7 @@ p {
   display: flex;
   justify-content: center;
 
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   font-size: 5000em;
 }
 
@@ -334,6 +354,11 @@ p {
 
 .dragndrop p {
   color: black;
+  padding: 10px;
+}
+
+.dragndrop h1 {
+  padding-top: 7px;
 }
 
 
@@ -370,7 +395,9 @@ p {
 
 }
 
-#drag1 {  -webkit-transform: rotate(270deg);
+#drag1 {
+
+  -webkit-transform: rotate(270deg);
  -moz-transform: rotate(270deg);
  -o-transform: rotate(270deg);
  -ms-transform: rotate(270deg);
