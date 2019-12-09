@@ -21,7 +21,27 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .factmain {
+  padding-top: 0px;
+
+}
+
+.facts {
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
+
+.references {
+  font-size: 15px;
+  text-align: left;
+  color: black;
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
   padding-top: 50px;
+}
+
+.references p {
+  color: black;
 }
 
 footer {
@@ -126,10 +146,11 @@ rect[Attributes Style] {
 }
 
 h1{
-  font-size:2.5rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 1.2;
   color: white;
+  text-align: center;
 
 }
 
@@ -149,12 +170,16 @@ p {
     margin-bottom: 1rem;
 }
 
-ul {
+.factmain ul {
   color: white;
-  font-size: 18px;
+  font-size: 19px;
+  text-align: left;
 }
 
-
+.lead {
+  font-size: 19px;
+  text-align: left;
+}
 
 .toprow {
   margin-right: 0rem;
