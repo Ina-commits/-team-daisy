@@ -23,7 +23,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .facts {
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
 }
 
 .references {
@@ -172,7 +172,7 @@ p {
 
 .lead {
   font-size: 19px;
-  text-align: left;
+  text-align: center;
 }
 
 .toprow {
@@ -459,4 +459,13 @@ p {
 
   .clickedbottle{
     display: none;
+  }
+
+  .col-md-5{
+    border:
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+
   }
