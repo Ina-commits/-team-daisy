@@ -456,3 +456,7 @@ p {
     border-radius: .25rem;
     transition: color .15s
   }
+
+  .clickedbottle{
+    display: none;
+  }
