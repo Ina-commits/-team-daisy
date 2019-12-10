@@ -371,8 +371,10 @@ p {
 }
 
 .dragndrop p {
-  color: black;
+  color: white;
   padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .dragndrop h1 {
@@ -393,15 +395,20 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding:1px;
+  border:3px solid #fff;
 }
 
 #div2 {
   background-image: url("https://image.flaticon.com/icons/svg/861/861106.svg");
-  width: 400px;
-  height: 400px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 200px;
+  left: 50px;
 }
 
 #div2:hover {
@@ -429,3 +436,23 @@ p {
   -o-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);}
+
+.btn-signup {
+    color: #dc3545;
+    background-color: #fff;
+    border-color: #dc3545;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    line-height: 2.5;
+    border-radius: .25rem;
+    transition: color .15s
+  }
