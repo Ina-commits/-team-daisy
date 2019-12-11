@@ -329,7 +329,7 @@ p {
 }
 
 .text {
-  color: black;
+  color: white;
   font-size: 18px;
   position: absolute;
   height: 100%;
@@ -493,4 +493,9 @@ p {
   color: #1394D7;
   background-color: white;
   border-color: #66CDAA;
+}
+
+
+ul {
+  color:#66CDAA;
 }
