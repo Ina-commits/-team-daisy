@@ -23,7 +23,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 .facts {
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 40px;
 }
 
 .references {
@@ -460,3 +460,6 @@ p {
   .clickedbottle{
     display: none;
   }
+  .col-md-5{
+    padding-bottom: 40px;
+    }
