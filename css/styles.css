@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
@@ -43,12 +41,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 footer {
   position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background: rgba(76, 175, 80, 0.3)
-color: white;
-text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(76, 175, 80, 0.3)
+  color: white;
+  text-align: center;
 }
 
 *, ::after, ::before {
@@ -121,8 +119,6 @@ rect[Attributes Style] {
     color: #fff;
     text-align: center;
 }
-
-
 
 .carousel-indicators {
     position: absolute;
@@ -347,7 +343,6 @@ p {
 
 }
 
-
 .modal-header {
   text-align: center;
 }
@@ -457,9 +452,35 @@ p {
     transition: color .15s
   }
 
-  .clickedbottle{
+.clickedbottle{
     display: none;
   }
-  .col-md-5{
+
+.col-md-5{
     padding-bottom: 40px;
     }
+
+.featurette-heading{
+  color: #66CDAA;
+}
+
+.lead{
+  text-align: justify;
+}
+
+.leadright{
+  text-align:justify;
+  width: 600px;
+  top margin: 0rem;
+  margin-left: 4rem;
+  margin-right:0rem;
+  margin-right: 5rem;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.buttonblue{
+  color: #1394D7;
+  background-color: white;
+  border-color: #66CDAA;
+}
