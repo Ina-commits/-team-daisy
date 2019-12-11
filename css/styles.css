@@ -357,7 +357,7 @@ p {
 
 
 .dragndrop {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
@@ -366,16 +366,26 @@ p {
 }
 
 .dragndrop p {
-  color: black;
-  padding: 5px;
+  color: #66CDAA;
+  padding: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
   font-size: 1.5rem;
   text-align: center;
 }
 
 .dragndrop h1 {
-  padding-top: 7px;
+  padding-top: 8px;
+  padding-bottom: 5px;
 }
 
+.litter p {
+  color: white;
+}
+
+#eventitem h2 {
+  color: #66CDAA;
+}
 
 #div1, #div2 {
   float: left;
