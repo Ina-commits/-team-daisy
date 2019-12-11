@@ -321,7 +321,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #1394D7;
+  background-color: #0c8acc;
 }
 
 .infotext:hover .overlay {
@@ -367,7 +367,7 @@ p {
 
 .dragndrop p {
   color: #66CDAA;
-  padding: 0px;
+  padding: 15px;
   padding-left: 8px;
   padding-right: 8px;
   font-size: 1.5rem;
@@ -375,8 +375,9 @@ p {
 }
 
 .dragndrop h1 {
-  padding-top: 8px;
-  padding-bottom: 5px;
+  font-size: 3rem;
+  padding-top: 9px;
+  padding-bottom: 10px;
 }
 
 .litter p {
@@ -455,9 +456,9 @@ p {
     -ms-user-select: none;
     user-select: none;
     border: 1px solid transparent;
-    padding: .375rem .75rem;
+    padding: .355rem .55rem;
     font-size: 2rem;
-    line-height: 2.5;
+    line-height: 2;
     border-radius: .25rem;
     transition: color .15s
   }
@@ -499,6 +500,15 @@ p {
   text-align:justify;
   margin-left: 10rem;
   margin-right:10rem;
+}
+
+.easy p {
+  color: white;
+  font-size: 1.4rem;
+  padding-top: 50px;
+}
+
+
 
 ul {
   color:#66CDAA;
